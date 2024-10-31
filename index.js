@@ -43,10 +43,24 @@
 // console.log(lapsCompleted);
 
 //now simple counter App working functionality
+// let getCounter = document.getElementById("count-el"); //Passing the arguments
+// console.log(getCounter);
+// let count = 0;
+// function increment() {
+//   count = count + 1;
+//   getCounter.innerText = count;
+// }
+
+// now simple counter App working functionality along with save functionality
 let getCounter = document.getElementById("count-el"); //Passing the arguments
 console.log(getCounter);
 let count = 0;
+let log = 0;
 function increment() {
   count = count + 1;
   getCounter.innerText = count;
+}
+function save() {
+  log = count;
+  console.log(log);
 }
